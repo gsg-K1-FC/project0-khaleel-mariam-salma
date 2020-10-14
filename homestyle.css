@@ -4,13 +4,107 @@
     margin: 0;
 }
 
+
+
 /*  mariam section css */
 section  
 {
    display: flex;
    justify-content:center;
+   
     
      
+}
+@media screen and (max-width: 600px)
+{    
+    body 
+    {
+        width: auto;
+    }
+    .ul-f ul 
+    {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        
+    }
+    .btn-1 input, .btn input 
+    {
+        padding: 0px;
+        margin: 0px;
+        width: auto;
+        height: 40px;
+        
+    }
+    .gallery-1 
+    {
+    display:flex;
+    
+    
+    }
+
+    .gallery-1 ul , .gallery-2 ul
+    {
+        display:flex;
+        justify-content:flex-start;
+        list-style-type: none;
+        flex-wrap: wrap;
+    
+        
+    }
+    
+    .gallery-1 li
+    {
+        height: 315px;
+
+    }
+
+    .img-1 li img
+    {
+    width:290px;
+    height:315px ;
+    }
+
+    .test-p
+    {
+        width: 512px;
+        height: 80px;
+
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        color:#002633;
+        
+        margin:15px;
+        
+        padding-left: 250px;
+       
+        
+    }
+    .foot-2
+   {
+
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+        
+        
+   }
+   iframe
+   {
+     width:100%;
+     height:450px;
+ 
+   }
+  .info-com
+  {
+      background-color:#002633;
+      width: 100%;
+      height: 387px;
+      padding : 40px;
+      }
+ 
 }
 .dic-1
 {
@@ -23,7 +117,7 @@ section
 {
     font-size:50px;
     font-family: 'Playfair Display', serif;
-    
+    margin-top: 20px;;
     text-align: center;
 
     
@@ -31,8 +125,7 @@ section
 .horz
 {
     border-bottom: 2px #C81010  solid;
-    margin-left: 150px;
-    margin-bottom: 20px;
+    margin: 20px 528px 35px;
     width:70px ;
 
 
@@ -41,13 +134,13 @@ section
 .ul-f ul  
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     list-style-type: none;
     
 
     
 }
-.btn-1 input, .btn-2 input , .btn-3 input
+.btn-1 input, .btn input 
 {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -57,9 +150,150 @@ section
     border: none;
 
 }
-.btn-1 input
+
+.btn input:hover , .btn-1 input
 {
     color: white;
     background-color: #C81010;
+    border: none;
+    cursor: pointer;
+
+}
+.gallery-1 
+{
+   display:flex;
+   margin-top: 25px;
+   
+}
+
+.gallery-1 ul , .gallery-2 ul
+{
+    display:flex;
+    justify-content:flex-start;
+    list-style-type: none;
     
+    
+}
+ .gallery-1 li
+ {
+     height: 315px;
+ }
+
+.img-1 li img
+{
+  width:337px;
+  height:315px ;
+  position: relative;
+
+  
+}
+ .im-1:hover img
+{
+   opacity: 60px;
+}
+.para-img
+{
+    font-size: 16px;
+    color:white;
+    font-family:'Open Sans', sans-serif ;
+    padding :40px;
+    position: absolute;
+    background-color: #C81010;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+
+}
+.img-user
+{
+    width: 100px;
+    height: 100px;
+    margin: 0px 275.5px 20px 275.484px;
+}
+
+.test-p
+{
+   font-size: 20px;
+   font-family: 'Playfair Display', serif;
+   color:#002633;
+   
+   margin:15px;
+   width: 600px;
+   padding-left: 250px;
+}
+
+.foot-1
+{
+    width:auto ;
+    height: 65px;
+    background-color: #C81010;
+
+}
+.foot-1 p
+{
+    font-size: 28.8px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    
+
+}
+ .foot-2
+ {
+
+    display:flex;
+    flex-direction:row;
+ }
+  iframe
+  {
+    width:650px ;
+    height:450px;
+
+  }
+ .info-com
+ {
+     background-color:#002633;
+     width: 850px;
+     height: 387px;
+     padding : 40px;
+     }
+     .info-com div 
+     {
+        display: flex;
+       flex-direction: row ; 
+        margin: 20px;
+     }
+ .info-com i 
+ {
+     color:#C81010;
+     font-size: 48px;
+     padding-right: 15px;
+     padding-top: 20px;
+
+ }
+ .info-com p , .info-com h3{
+     font-size: 13.6px;
+     color:#7697A2;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+.f-2 h3 , .f-1 h3 , .f-3 h3
+{
+   color: white;
+   font-size: 19px; 
+   font-weight: bold;
+   padding-bottom: 5px;
+}
+.end-f
+{
+    background-color: #002633;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    font-size: 12px;
+    color:#7697A2;
+    height: 60px;
+    font-family:'Open Sans', sans-serif ;
+
 }
