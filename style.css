@@ -7,17 +7,259 @@
   height: 400px;
 }
 .header-photo {
-  z-index: -10;
   width: 100%;
   position: relative;
-}
-.white-logo {
-  width: 150px;
-  height: 50px;
+  top: 0;
 }
 .nav-bar {
   width: 100%;
   display: flex;
-  position: absolute;
+  border-bottom: solid 1px white;
+  justify-content: space-between;
+  position: fixed;
   top: 0;
+  z-index: 10;
+  padding-top: 10px;
+  background-color: black;
+}
+
+.white-logo {
+  width: 200px;
+  height: 40px;
+
+  padding-left: 60px;
+}
+
+nav {
+  width: 30%;
+  height: 50px;
+  padding-right: 100px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.links {
+  padding-top: 10px;
+  color: white;
+  font-size: 15px;
+}
+.first-section {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.first-section .title {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.first-section .title2 {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.first-section .prag {
+  color: white;
+  width: 800px;
+  padding-top: 20px;
+  padding-left: 400px;
+  padding-bottom: 50px;
+}
+.first-section .button1 {
+  color: black;
+  position: relative;
+  left: 43%;
+  font-size: x-large;
+}
+.premium {
+  position: fixed;
+  right: 0px;
+  top: 50px;
+}
+/* section two */
+.boxes {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.box1 {
+  width: 300px;
+  height: 350px;
+  border: solid 2px black;
+  position: relative;
+  top: 50px;
+  margin-right: 100px;
+}
+.box2 {
+  width: 300px;
+  height: 350px;
+  border: solid 2px black;
+  position: relative;
+  top: 50px;
+}
+.box3 {
+  width: 300px;
+  height: 350px;
+  border: solid 2px black;
+  position: relative;
+  top: 50px;
+  margin-left: 100px;
+}
+.fa-shield {
+  font-size: 100px;
+  position: relative;
+  left: 35%;
+  padding-top: 50px;
+}
+.box1 .title,
+.box1 .prag {
+  text-align: center;
+}
+.fa-umbrella {
+  font-size: 100px;
+  position: relative;
+  left: 35%;
+  padding-top: 50px;
+}
+.box2 .title,
+.box2 .prag {
+  text-align: center;
+}
+
+.fa-home {
+  font-size: 100px;
+  position: relative;
+  left: 35%;
+  padding-top: 50px;
+}
+
+.box3 .title,
+.box3 .prag {
+  text-align: center;
+}
+/* section 3 */
+.about-us {
+  padding-top: 500px;
+  width: 100%;
+  height: 500px;
+}
+.about-us .title {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.about-us .prags {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  /* padding-left: 100px; */
+  padding-top: 50px;
+}
+.about-us .prags .first {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+  width: 200px;
+  margin-right: 20px;
+}
+.about-us .prags .second,
+.about-us .prags .third {
+  width: 400px;
+}
+.about-us .prags .third {
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .header-photo {
+    width: 400%;
+  }
+  nav ul {
+    display: none;
+  }
+  .first-section {
+    padding-left: 1000px;
+    margin-top: -150px;
+  }
+  .first-section .title,
+  .first-section .title2 {
+    text-align: center;
+    /* margin-top: -50px; */
+  }
+  .first-section .prag {
+    display: none;
+  }
+  .first-section .button1 {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: -150px;
+  }
+  .premium {
+    position: fixed;
+    right: 0px;
+    top: 100px;
+  }
+  .boxes {
+    width: 400%;
+    display: flex;
+  }
+  .about-us {
+    padding-top: 500px;
+    width: 400%;
+    height: 500px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .header-photo {
+    width: 200%;
+  }
+  nav {
+    padding-right: 500px;
+  }
+  .nav-bar {
+    width: 100%;
+  }
+
+  .first-section {
+    padding-left: 600px;
+    margin-top: -100px;
+  }
+  .first-section .title,
+  .first-section .title2 {
+    text-align: center;
+    /* margin-top: -50px; */
+  }
+  .first-section .prag {
+    display: none;
+  }
+  .first-section .button1 {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-left: -150px;
+  }
+
+  .boxes {
+    width: 200%;
+    display: flex;
+  }
+  .about-us {
+    width: 200%;
+  }
 }
