@@ -252,6 +252,12 @@ footer{
         
         
     }
+    .our-work
+    {
+      width: 100%;
+
+    }
+
     .btn-1 input, .btn input 
     {
         padding: 0px;
@@ -265,7 +271,7 @@ footer{
     .gallery-1 ul , .gallery-2 ul
     {
         display:flex;
-        justify-content:ce;
+        justify-content:center;
         list-style-type: none;
         flex-wrap: wrap;
 
@@ -329,7 +335,7 @@ footer{
 .horz
 {
     border-bottom: 2px #C81010  solid;
-    
+    margin: 0px;
    
 
 
