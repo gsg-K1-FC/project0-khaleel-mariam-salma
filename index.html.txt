@@ -1,0 +1,114 @@
+
+
+    <div class="line">
+      <b class=>About Us</b> 
+    </div>
+    <div class="line">
+      <div class="margin">  
+        <div class="box">
+          <p class=>We Are<br> Web Design Heroes</p>
+        </div>
+        <div class="class">
+          <p1 class=>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica. Dolor in hendrerit in vulputate velit esse molestie consequat. Mirum est notare quam littera gothica. </p>
+        </div>
+        <div class="class">
+          <p2 class=>Mirum est notare quam littera gothica. Dolor in hendrerit in vulputate velit esse molestie consequat. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+        </div> 
+
+        
+          <div class="s-12 m-12 l-6">  
+            <img src="img/img-12.jpg" alt="https://www.myresponsee.com/eleganter/img/img-12.jpg" />
+          </div>
+          <div class="s-12 m-12 l-6">
+            <div class="padding-2x"> 
+              <div class="line">
+                <div class="float-left">
+                  <i class="icon-sli-drop icon3x text-dark"></i>
+                </div>
+                  <h3 class=Unlimited Color Variants></h3>
+                  <p class="text-dark">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.<br> Vel illum dolore eu feugiat nulla facilisis.</p>            
+                </div>
+              </div>
+              <div class="line">
+                <div class="float-left"> 
+                  <i class="icon-sli-screen-smartphone icon3x text-dark"></i>
+                </div>
+                  <h3 class=Responsive Layoute></h3>
+                  <p class="text-dark">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>            
+                </div>
+              </div>
+              <div class="line">
+                <div class="float-left">
+                  <i class="icon-sli-heart icon3x text-dark"></i>
+                </div>
+                  <h3 class=Clean Minimalistic Design></h3>
+                  <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.<br> Vel illum dolore eu feugiat nulla facilisis.</p>            
+                </div>
+              </div>
+              <div class="line">
+                <div class="float-left">
+                  <i class="icon-sli-chart icon3x text-dark"></i>
+                </div>
+                  <h3 class=>Tons of Animated Elements></h3>
+                  <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>            
+                </div>
+              </div>
+              <div class="line">
+                <div class="float-left">
+                  <i class="icon-sli-globe-alt icon3x text-dark"></i>
+                </div>
+                <div class="margin-left-60">
+                  <h3 class=>And many more...></h3>
+                  <p class="text-dark">Nam liber tempor cum soluta nobis eleifend. Duis autem vel eum iriure dolor<br> in hendrerit in vulputate velit esse molestie consequat.</p>            
+                </div>
+              </div> 
+            </div>
+          </div>
+  
+<section class="section background-white">  
+  <div class="line"> 
+    <h2 class=Our Stats></h2>
+    <hr class="break-small background-primary break-center">
+    <div class="margin margin-top-bottom-50">
+      <div class="s-12 m-12 l-3">
+        <div class="block">
+          <div class="count-to">
+            <span class=>1500</span>
+            <p class=>Eodem modo typi</p> 
+          </div>
+        </div>
+      </div>
+      <div class="s-12 m-12 l-3">
+        <div class="block">
+          <div class="count-to">
+            <span class=>95%</span>
+            <pspan class=>Duis autem</p> 
+          </div>
+        </div>
+      </div>
+      <div class="s-12 m-12 l-3">
+        <div class="block">
+          <div class="count-to">
+            <span class=>287</span>
+            <p class=>Mirum est notare</p> 
+          </div>
+        </div>
+      </div>
+      <div class="s-12 m-12 l-3">
+        <div class="block">
+          <div class="count-to">
+            <span class=>7 milion</span>
+            <p class=>Nam liber tempor</p> 
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+
+
+
+        
+      
+
+        
