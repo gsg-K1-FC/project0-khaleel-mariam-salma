@@ -1,5 +1,8 @@
-# project0-khaleel-mariam-salma
-The Team:
-1.khaleel 
-2.mariam
-3.salma
+# OUR PROJECT:
+https://gsg-k1-fc.github.io/project0-khaleel-mariam-salma/
+
+1.khaleel ====>The Header Section
+
+2.mariam ====>The Body Section
+
+3.salma ====>The Footer Section
